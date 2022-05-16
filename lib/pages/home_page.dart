@@ -14,11 +14,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // appBar: AppBar(
-        //   title: Text("Counter App"),
-        //   centerTitle: true,
-        // ),
-        // body: Center(
+      appBar: AppBar(
+        title: Text("Counter App"),
+        centerTitle: true,
+      ),
+    );
+  }
+}
+
+
+// body: Center(
         //   child: Column(
         //     mainAxisAlignment: MainAxisAlignment.center,
         //     children: [
@@ -52,6 +57,3 @@ class _HomePageState extends State<HomePage> {
         //     ],
         //   ),
         // ),
-        );
-  }
-}
